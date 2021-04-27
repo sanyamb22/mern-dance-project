@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar.navbar 
+            ul#navList
+                div#logo
+                    img(src="../static/img/logo.png", alt="logo") 
+                li #[a(href="/index") Home]
+                li #[a(href="#section2") About]
+                li #[a(href="/") Services]
+                li #[a(href="/contact") Contact Us]
+    block content
+    footer#footer 
+        | Copyright 2021 Dance Website | All Rights Reserved.

@@ -1,0 +1,202 @@
+/* CSS RESET */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* NAVBAR */
+#navbar{
+    background-color: black;
+    /* height: 90px; */
+    padding: 30px;
+}
+#navbar::before{
+    content: "";
+    opacity: 0.8;
+    position: absolute;
+    z-index: -1;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    margin: 0px 14px;
+    align-items: center;
+}
+
+#logo img{
+    
+    height: 10vh;
+}
+
+#navbar ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#navbar ul li{
+    list-style: none;
+    /* margin-top: 20px; */
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 40px 30px;
+    font-size: 20px;
+}
+#navbar ul li a:hover{
+    text-decoration: underline;
+
+}
+
+/* navbar ended */
+
+/* ************************************************* */
+/* ************************************************* */
+/* ************************************************* */
+
+/* SECTION 1 */
+#section1{    
+    height: 82vh;
+    background-image: url("/static/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: red;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+
+    padding-top: 60px;
+}
+
+
+/* section 1 ended */
+
+/* ************************************************* */
+/* ************************************************* */
+/* ************************************************* */
+
+/* SECTION 2 */
+#section2{    
+    height: 400px;
+    
+    
+}
+#section2 h2{
+    text-align: center;
+    margin: 12px;
+    font-size: 33px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.secCard{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.cards{
+    border: 5px solid black;
+    border-radius: 8px;
+    width: 350px;
+    height: 250px;
+    margin: 20px;
+    padding-top: 15px;
+}
+
+.cards h3{
+    text-align: center;
+}
+
+.secCard h2{
+    text-align: center;
+    margin: 12px;
+
+}
+
+.cards-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cards-img img{
+    height: 150px;
+    padding-top: 10px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.cards p{
+    text-align: center;
+}
+
+
+/* section 2 ended */
+
+/* ************************************************* */
+/* ************************************************* */
+/* ************************************************* */
+
+/* SECTION 3 */
+
+#section3{
+    background-color: rgb(200, 255, 246);
+
+}
+
+#section3 h2{
+    text-align: center;
+    margin: 12px;
+    font-size: 33px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+#sponsors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#sponsors img{
+    height: 200px;
+    margin: 30px;
+    margin-bottom: 50px;
+}
+
+
+/* Section 3 ends */
+
+/* ************************************************* */
+/* ************************************************* */
+/* ************************************************* */
+
+/* FOOTER */
+#footer{    
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+
+/* footer ended */
